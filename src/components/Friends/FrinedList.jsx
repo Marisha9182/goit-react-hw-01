@@ -1,11 +1,12 @@
 import FriendsListItem from "../Friends/FriendListItem";
+import '../Friends/friendsStyle.css';
 
 const FriendsList = ({friends}) => {
 
     return(
-        <ul>
+        <ul className="friend">
             {friends.map((friend) => (
-                <li key = {friend.id}>
+                <li key = {friend.id} className='friendBox'>
                 <FriendsListItem friend={friend} />
                 </li>
             ))

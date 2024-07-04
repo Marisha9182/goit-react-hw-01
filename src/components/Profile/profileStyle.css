@@ -1,0 +1,59 @@
+.profileBox{
+    text-align: center;
+    border-color: #000000;
+    /* border-radius: 5%; */
+    font-family: sans-serif;
+    border-style: solid;
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 255px;
+    height: 357px;
+}
+
+.container{
+    display: flex;
+    list-style: none;
+    margin: 0px;
+    text-align: center;
+    padding: 0px;
+}
+
+.number{
+    display: flex;
+    font-weight: 600;
+
+}
+
+.name{
+    color:black;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: sans-serif;
+    margin: 15px;
+}
+
+.info{
+    color: gray;
+    font-family: sans-serif;
+    margin: 10px;
+}
+
+.profileImg{
+    border-radius: 50%;
+    background-color: #3a3737;
+    margin-top: 15px;
+}
+
+.container > li {
+    border: 2px solid;
+    margin: 0px;
+    background-color: #9f9e9e;
+    font-size: 20px;
+    padding: 10px;
+    border-color: #3a3737;
+    text-align: center;
+    border-bottom: 0px;
+
+}

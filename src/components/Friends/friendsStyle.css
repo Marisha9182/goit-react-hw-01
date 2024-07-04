@@ -1,0 +1,30 @@
+.friendBox{
+    list-style: none;
+    border: 2px solid black;
+    width: 100px;
+    height: 170px;
+    border-radius: 5%;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.friend{
+    display: flex;
+    gap: 20px;
+}
+
+.friendImg{
+margin: 10px;
+
+}
+
+.nameOfFriend{
+    font-size: 24px;
+    margin: 0;
+    font-weight: 400px;
+}
+
+.status {
+    font-weight: bold;
+
+  }

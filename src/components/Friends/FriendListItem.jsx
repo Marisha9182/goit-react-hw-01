@@ -1,10 +1,16 @@
+
+import '../Friends/friendsStyle.css';
+
 const FriendsListItem = ({friend: {avatar, name, isOnline}}) => {
 
+    const statusText = isOnline ? 'Online' : 'Offline';
+    const statusColor = isOnline ? 'green' : 'red';
+
     return(
-        <div>
-    <img src={avatar} alt="Avatar" width="48" />
-    <p>{name}</p>
-    <p>{isOnline === true ? "Online" : "Offline"}</p>
+        <div className='information'>
+    <img className = 'friendImg' src={avatar} alt="Avatar" width="70px" />
+    <p className='nameOfFriend'>{name}</p>
+    <p className="status" style={{ color: statusColor }}>{statusText}</p>
         </div>
     )
 };

@@ -23,7 +23,7 @@
 .number{
     display: flex;
     font-weight: 600;
-
+text-align: center;
 }
 
 .name{

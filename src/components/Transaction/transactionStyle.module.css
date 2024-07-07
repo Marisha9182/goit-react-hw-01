@@ -11,17 +11,14 @@ font-size: 15px;
 
 .titleTable{
 background-color: rgb(65, 65, 65);
-/* border-color: black; */
 color: azure;
 height: 30px;
-/* text-decoration-color: aliceblue; */
-/* column-rule-color: aliceblue; */
 }
 
 thead {
     width: 100px; }
 
-.item-type{
+.item{
     text-align: left;
     padding-left: 40px;
 }

@@ -1,7 +1,7 @@
 
 import style from '../Friends/friendsStyle.module.css';
 
-const FriendsListItem = ({friend: {avatar, name, isOnline}}) => {
+const FriendListItem = ({friend: {avatar, name, isOnline}}) => {
 
     const statusText = isOnline ? 'Online' : 'Offline';
     const statusColor = isOnline ? 'green' : 'red';
@@ -15,4 +15,4 @@ const FriendsListItem = ({friend: {avatar, name, isOnline}}) => {
     )
 };
 
-export default FriendsListItem;
+export default FriendListItem;

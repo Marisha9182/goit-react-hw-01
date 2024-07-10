@@ -16,3 +16,4 @@ const FriendListItem = ({friend: {avatar, name, isOnline}}) => {
 };
 
 export default FriendListItem;
+
